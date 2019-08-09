@@ -21,6 +21,7 @@ docker run --rm -ti etch bash
 
 Use in your Dockerfile
 
-```FROM yodebu/etch:i386
+```docker
+FROM yodebu/etch:i386
 ...
 ```
