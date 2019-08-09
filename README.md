@@ -18,3 +18,9 @@ docker cp <CONTAINER ID>:/rootfs.tar.xz rootfs.tar.xz
 docker build -t etch -f Dockerfile .
 docker run --rm -ti etch bash
 ```
+
+Use in your Dockerfile
+
+```FROM yodebu/etch:i386
+...
+```
